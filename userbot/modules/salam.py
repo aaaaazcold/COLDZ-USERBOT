@@ -16,7 +16,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.p(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Assalamu'alaikum wr. wb.`")
+    await typew.edit("`Assalamu'alaikum NGENTOTTTT!!`")
 
 
 @register(outgoing=True, pattern='^.L(?: |$)(.*)')
@@ -28,7 +28,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.l(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Wa'alaikumssalam wr. wb.`")
+    await typew.edit("`Wa'alaikumssalam KONTOOLL!!!`")
 
 
 CMD_HELP.update({
